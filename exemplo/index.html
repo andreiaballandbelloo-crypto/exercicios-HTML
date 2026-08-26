@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página html</title>
+</head>
+ 
+<body>
+    <!-- Cabecalho -->
+    <header>
+        <h1>Minha primeira página WEB - HTML</h1>
+    </header>
+
+    <!-- Conteudo principal -->
+    <main>
+        <!-- Lista ordenada e desordenada -->
+         <section>
+            <h3>Lista Ordenada</h3>
+            <ol>
+                <li>Rio de Janeiro</li>
+                <li>Joinville</li>
+            </ol>
+            <h3>Lista Não Ordenada</h3>
+            <ul>
+                <li>Batata</li>
+            </ul>
+
+         </section>
+
+        <!-- Imagens e Videos -->
+            <section>
+                <h3>Imagens e Videos</h3>
+                <img width="200" src="./dog.jpg" alt="Cachorro na praia">
+                <img width="200" src="https://blog.cobasi.com.br/wp-content/uploads/2020/12/cachorro-na-praia-1.png" alt="Cachorro na praia">
+                <br/>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UmJPLjT-L9U?si=qwo7Jsdg6MGhI3QA" title="Vingadores Doomsday" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+        <!-- Formulários -->
+         <section>
+            <h2>Formulário simples</h2>
+
+            <form>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Exemplo: Andreia"/>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email"/>
+                </div>
+
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha"/>
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" placeholder="Mensagem"></textarea>
+                </div>
+
+                <div>
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" min="10" max="20" />
+                </div>
+
+                <div>
+                    <label for="cor">Cor:</label>
+                    <input type="color" id="cor" />
+                </div>
+
+                <div>
+                    <label for="anexo">Anexo:</label>
+                    <input type="file" id="anexo" />
+                </div>
+
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </form>
+         </section>
+    </main>
+
+
+    <!-- Rodape -->
+    <footer>
+        <p>
+            &copy; Todos os direitos reservados
+        </p>
+    </footer>
+</body>
+ 
+</html>
+ 
