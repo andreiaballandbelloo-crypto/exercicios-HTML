@@ -1,7 +1,7 @@
+import express from 'express'
 
-import express from 'express';
-
-const app = express();
+const app = express()
+app.use(express.json())
 
 // Exercício 1: Peça ao usuário dois números com casas decimais (números reais), some os dois e mostre o resultado.
 app.get('/soma', (req, res) => {
